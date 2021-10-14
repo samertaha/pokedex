@@ -36,9 +36,9 @@ export default function Pokedex() {
 
   return (
     <Box>
-      {pokemonData ? (
+      {pokemonDdiata ? (
         <Grid className={classes.pokedexContainer} container spacing={2}>
-          {pokemonData.map((pokemon) => {
+          {pokemonDdiata.map((pokemon) => {
             return (
               <PokemonCard
                 pokemon={pokemon}
